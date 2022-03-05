@@ -1,0 +1,151 @@
+body {
+    font-family: 'Roboto',
+    sans-serif;
+}
+p {
+    color: #666;
+    font-size: 15px;
+    font-weight: 400px;
+}
+.container {
+    margin-bottom: 100px;
+}
+/* Header Section Starts here */
+#header {
+    background-image: linear-gradient(#F0FFF0 100%, #F0FFF0 10%);
+}
+.navbar {
+    background-color: #F0FFF0;
+}
+.navbar-brand img {
+    width: 150px;
+}
+.sign-btn {
+    background-color: #21B573;
+    color: #fff;
+    border:none;
+    border-radius: 25px;
+    padding: 8px 16px;
+    text-align:center;
+}
+/* Hero Banner starts */
+#hero {
+    margin-block: 50px;
+}
+#hero h1 {
+    color: #000;
+    font-size: 45px;
+}
+#hero img {
+    width: 100%;
+}
+.red-highlight  {
+    color: red;
+}
+.highlight {
+    color: #21B573;
+}
+/* Hero Banner Ends */
+/* Header Section Ends Here */
+/* Categories section Starts here */
+.card {
+    padding: 25px 20px;
+    border:none;
+    border-radius: 10px;
+    background-color: #F0FFF0;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 250px;
+}
+.card-body h5 {
+    font-size: 26px;
+}
+.card-body h6 {
+    font-size: 20px;
+    color: #656565;
+    margin-block: 15px;
+}
+#categories img {
+    width: 90px;
+    margin: auto;
+    display: block;
+}
+#shadow-effect {
+    background-color: #fff;
+    box-shadow: 0px 5px 40px #d3d3d3;
+}
+/* Categories Section Ends Here */
+/* Courses Section Starts Here */
+#courses h2{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 35px;
+}
+#courses .card {
+    box-shadow: 0px 0px 20px #d3d3d3;
+    padding: 25px 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    text-align: left;
+    
+}
+#start-info {
+    margin-top: 30px;
+}
+#start-info span, #start-info small {
+    font-size: 10px;
+}
+
+#start-info img {
+    width: 20px;
+}
+/* Courses Section Ends Here */
+/* Testimonial Section Starts Here */
+#testimonial h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 60px;
+    color: #000;
+}
+#testimonial .container {
+    width: 800px;
+}
+#testimonial .row {
+    
+    align-items: center;
+    text-align: center;
+}
+#testimonial p {
+    color: #333;
+}
+#testimonial img {
+    width: 100%;
+}
+/* Testimonial Section Ends Here */
+/* Footer section Starts Here */
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0 20px 0;
+}
+#footer p {
+    color: #fff;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    color: #f2f2f2;
+}
+#footer .container {
+    margin-bottom: 0;
+}
+ul  {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+
+}
+ul li {
+    line-height: 30px;
+}
